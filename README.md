@@ -46,6 +46,7 @@ Cancelar:
 Puedes cancelar el proceso de publicación y volver a la página de inicio haciendo clic en el botón "Cancelar" ❌.
 
 📸 Capturas de Pantalla
+https://github.com/EM-DEV03/Sucre-News/blob/main/img/PaginaCompleta.png
 
 
 Vista previa de la noticia publicada.
