@@ -1,12 +1,12 @@
-# Plataforma de Publicación de Noticias - Sucre News
+# 📰 Plataforma de Publicación de Noticias - **Sucre News**
 
 ## Descripción
 
-**Sucre News** es una plataforma web sencilla y moderna que permite a los usuarios crear y publicar noticias. Con una interfaz amigable y responsive, esta plataforma permite a los usuarios ingresar información como el título, autor, categoría, contenido e imagen de cada noticia. La aplicación utiliza tecnologías como HTML, CSS, Bootstrap 5 y JavaScript, con almacenamiento local para guardar las noticias publicadas.
+**Sucre News** es una plataforma web sencilla y moderna que permite a los usuarios crear y publicar noticias. Con una interfaz amigable y responsive, esta plataforma permite a los usuarios ingresar información como el título, autor, categoría, contenido e imagen de cada noticia. La aplicación utiliza tecnologías como **HTML**, **CSS**, **Bootstrap 5** y **JavaScript**, con almacenamiento local para guardar las noticias publicadas.
 
 Este proyecto es parte de **Talento Tech**, enfocado en la creación de aplicaciones web prácticas y funcionales.
 
-## Tecnologías Utilizadas
+## 🚀 Tecnologías Utilizadas
 
 - **HTML5**: Estructura básica del proyecto y contenido de la página.
 - **CSS3**: Estilos personalizados para la interfaz de usuario.
@@ -14,7 +14,7 @@ Este proyecto es parte de **Talento Tech**, enfocado en la creación de aplicaci
 - **JavaScript**: Funcionalidades dinámicas como la creación, visualización y almacenamiento de noticias en el navegador.
 - **LocalStorage**: Almacenamiento local para persistir las noticias publicadas sin necesidad de bases de datos externas.
 
-## Características
+## 📝 Características
 
 - **Formulario de publicación**: Los usuarios pueden añadir noticias proporcionando un título, autor, contenido, categoría e imagen.
 - **Vista previa de imagen**: Permite previsualizar la imagen antes de publicarla.
@@ -22,7 +22,7 @@ Este proyecto es parte de **Talento Tech**, enfocado en la creación de aplicaci
 - **Diseño responsivo**: Adaptado a dispositivos móviles, tabletas y escritorios utilizando Bootstrap 5.
 - **Interfaz amigable**: Basado en un diseño limpio y profesional, con botones y formularios fáciles de usar.
 
-## Instalación
+## 🔧 Instalación
 
 1. **Clonar el repositorio**:
 
@@ -32,15 +32,20 @@ Abrir el proyecto:
 
 Abre el archivo index.html en tu navegador preferido para ver la aplicación en acción.
 
-Uso
+📱 Uso
 Publicar una noticia:
 
 Rellena los campos del formulario con el título, autor, categoría, contenido e imagen de la noticia.
 
-Haz clic en el botón "Publicar".
+Haz clic en el botón "Publicar" 📤.
 
 La noticia se añadirá al almacenamiento local y podrás verla en la página de inicio.
 
 Cancelar:
 
-Puedes cancelar el proceso de publicación y volver a la página de inicio haciendo clic en el botón "Cancelar".
+Puedes cancelar el proceso de publicación y volver a la página de inicio haciendo clic en el botón "Cancelar" ❌.
+
+📸 Capturas de Pantalla
+
+
+Vista previa de la noticia publicada.
