@@ -27,7 +27,7 @@ Este proyecto es parte de **Talento Tech**, enfocado en la creación de aplicaci
 1. **Clonar el repositorio**:
 
    ```bash
-   git clone https://github.com/tu-usuario/sucre-news.git
+   https://github.com/EM-DEV03/Sucre-News.git
 Abrir el proyecto:
 
 Abre el archivo index.html en tu navegador preferido para ver la aplicación en acción.
