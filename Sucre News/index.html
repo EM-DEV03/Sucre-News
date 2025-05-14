@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sucre News - Noticias al instante</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="shortcut icon" href="src/img/iconos/noticias.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <!-- Encabezado -->
+    <header class="container d-flex justify-content-between align-items-center">
+        <a href="index.html" style="text-decoration: none; color: #000; font-weight: bold;"><h2 class="m-0">Sucre News</h2></a>
+        <form class="d-flex w-50" role="search">
+            <input type="search" class="form-control me-2" placeholder="Buscar noticia" aria-label="Buscar noticia">
+            <button class="btn btn-outline-primary" type="submit">Buscar</button>
+        </form>
+    </header>
+
+    <!-- Categorías -->
+    <div class="text-center my-3 category-bar" id="categoryBar" >
+        <a href="#">DEPORTES</a>
+        <a href="#">CULTURA</a>
+        <a href="#">ECONOMÍA</a>
+        <a href="#">INTERNACIONAL</a>
+    </div>
+
+    <!-- Contenido principal con aside -->
+    <div class="container">
+        <div class="row">
+
+            <!-- Main noticias -->
+            <main class="col-md-8">
+
+                <div class="news-card mb-4 p-3 border rounded">
+                    <p class="text-muted small">NEWS</p>
+                    <h5>Gato perdido encuentra el camino de regreso a casa</h5>
+                    <p class="text-muted small">Tom Jerry - 13 mayo 2025</p>
+                    <img src="src/img/noticas-estaticas/gato-perdido.jpg" alt="Noticia gato"
+                        class="img-fluid mb-2 rounded">
+                    <p>Un gato estuvo desaparecido por más de una semana, pero logró regresar a casa gracias a su
+                        instinto y una pulsera de identificación.</p>
+                </div>
+
+                <div class="news-card mb-4 p-3 border rounded">
+                    <p class="text-muted small">CULTURA</p>
+                    <h5>Los mejores libros para leer este verano</h5>
+                    <p class="text-muted small">Ana Pérez - 12 mayo 2025</p>
+                    <img src="src/img/noticas-estaticas/libros.avif" alt="Libros de verano"
+                        class="img-fluid mb-2 rounded">
+                    <p>Descubre una lista curada de novelas, ensayos y poesía para disfrutar bajo el sol este verano.
+                    </p>
+                </div>
+
+                <div class="news-card mb-4 p-3 border rounded">
+                    <p class="text-muted small">DEPORTES</p>
+                    <h5>Jugador estrella lidera victoria histórica</h5>
+                    <p class="text-muted small">Luis García - 11 mayo 2025</p>
+                    <img src="src/img/noticas-estaticas/jugador.png" alt="Victoria deportiva"
+                        class="img-fluid mb-2 rounded">
+                    <p>El delantero anotó tres goles y lideró a su equipo a una victoria inolvidable en la final del
+                        torneo nacional.</p>
+                </div>
+
+                <!-- Añadir noticia -->
+                <div class="add-news text-center p-3 border rounded bg-light">
+                    <h5>¿Tienes una historia que contar?</h5>
+                    <a href="formulario.html">
+                        <button title="Agregar noticia" class="btn btn-primary mt-2">+</button>
+                    </a>
+                    <p class="mt-2 small">Haz parte de nuestro equipo ciudadano.</p>
+                </div>
+
+                <div id="newsContainer"></div>
+
+
+            </main>
+
+            <!-- Aside lateral derecho -->
+            <aside class="col-md-4">
+
+                <!-- Sección de imágenes -->
+                <div class="aside-section">
+                    <h6 style="text-align: center; font-size: 20px; font-weight: bold;">Imágenes del día</h6>
+                    <div id="imageCarousel" class="position-relative">
+                        <a id="carouselLink" href="https://picsum.photos/800/600?random=1" target="_blank"></a>
+                        <img src="https://picsum.photos/300/200?random=3" alt="imagen aleatoria">
+                    </div><br>
+
+                    <!-- Historias destacadas -->
+                    <div class="aside-section">
+                        <h6 style="text-align: center; font-size: 20px; font-weight: bold;">Historias destacadas</h6>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a
+                                    href="https://bogota.gov.co/mi-ciudad/movilidad/movilidad-bogota-vias-por-manifestaciones-este-lunes-12-de-mayo-2025">Protestas
+                                    en el centro de la ciudad
+                                    <br>
+                                    <img src="https://bogota.gov.co/sites/default/files/styles/1050px/public/2025-05/movilidad-bogota-vias-por-manifestaciones-este-lunes-12-de-mayo-de-2025.png"
+                                        alt="Protestas en el centro" class="img-fluid my-1 rounded"></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://prime.tirant.com/co/actualidad-prime/aprobada-ley-estatutaria-que-regula-el-derecho-fundamental-a-la-educacion-en-colombia/">Nueva
+                                    ley de educación fue aprobada
+                                    <br>
+                                    <img src="https://prime.tirant.com/co/wp-content/uploads/sites/12/2024/01/pexels-jose-vasquez-4400977-1.jpg"
+                                        alt="Ley de educación" class="img-fluid my-1 rounded"></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://valle.federaciondecafeteros.org/listado-noticias/cafes-vallecaucanos-ganaron-importante-distincion-internacional/">El
+                                    café colombiano gana premio mundial
+                                    <br>
+                                    <img src="https://valle.federaciondecafeteros.org/app/uploads/sites/15/2024/04/WEB-768x432.jpeg"
+                                        alt="Café colombiano premiado" class="img-fluid my-1 rounded"></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.infobae.com/espana/2025/02/26/cientificos-logran-eliminar-en-un-laboratorio-el-cromosoma-extra-que-causa-del-sindrome-de-down/">Científicos
+                                    logran avance en medicina
+                                    <br>
+                                    <img src="https://www.infobae.com/resizer/v2/WLG5IQQF4JDHNPONT4SM2CMVBI.jpeg?auth=b8db4a20ceb7d73b204d51ad1f3ab081e80451067c7553562d5f679dc54ccf08&smart=true&width=992&height=558&quality=85"
+                                        alt="Avance en medicina" class="img-fluid my-1 rounded"></a>
+                            </li>
+                        </ul>
+                    </div>
+
+            </aside>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p><strong>© 2025 Sucre News</strong> - Información real, cercana y oportuna</p>
+        <div>
+            <a href="#" class="text-white mx-2"><i class="bi bi-twitter"></i> Twitter</a>
+            <a href="#" class="text-white mx-2"><i class="bi bi-facebook"></i> Facebook</a>
+            <a href="#" class="text-white mx-2"><i class="bi bi-instagram"></i> Instagram</a>
+        </div>
+    </footer>
+
+    <script src="src/js/index.js"></script>
+
+</body>
+
+</html>
